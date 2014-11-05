@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "ZenHub Scrum Point Counter",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Helps you keep track of scrum points on ZenHub",
+    "description": "The description of the application"
+  }
+}
