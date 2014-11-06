@@ -1,6 +1,6 @@
 {
     "name": "__MSG_appName__",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "manifest_version": 2,
     "description": "__MSG_appDescription__",
     "icons": {
@@ -14,6 +14,9 @@
             "scripts/background.js"
         ]
     },
+    "web_accessible_resources": [
+        "bower_components/jquery/dist/jquery.min.map"
+    ],
     "content_scripts": [
         {
             "matches": [
@@ -24,6 +27,7 @@
             ],
             "js": [
                 "bower_components/jquery/dist/jquery.min.js",
+                "bower_components/keymaster/keymaster.js",
                 "scripts/vendor/jquery.livequery.min.js",
                 "scripts/contentscript.js"
             ],
