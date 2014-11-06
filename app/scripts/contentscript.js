@@ -43,7 +43,7 @@
 
   // Calculate the sum on issues page when `+` is pressed
   key('shift+s', function() {
-    var sum = $('.js-zh-issue-wrapper .label')
+    var sum = $('.js-issue-row .label')
       .map(function() {
         var labelText = $(this).text();
         if ($.isNumeric(labelText)) {
