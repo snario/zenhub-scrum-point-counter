@@ -1,4 +1,4 @@
-/*global jQuery:false */
+/*global jQuery:false, key:false */
 (function($) {
   'use strict';
 
@@ -40,4 +40,24 @@
       installSaveObserver();
       recalculatePoints();
     });
+
+  // Calculate the sum on issues page when `+` is pressed
+  key('shift+s', function() {
+    var sum = $('.js-zh-issue-wrapper .label')
+      .map(function() {
+        var labelText = $(this).text();
+        if ($.isNumeric(labelText)) {
+          return parseFloat(labelText);
+        } else {
+          return 0;
+        }
+      })
+      .get()
+      .reduce(function(a, b) {
+        return a + b;
+      }, 0);
+
+    $('.protip')
+      .html('<strong>Total Points:</strong> ' + sum);
+  });
 })(jQuery);

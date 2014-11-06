@@ -22,6 +22,10 @@ Add numeric labels to issues, and open them on GitHub.
 
 ![](http://f.cl.ly/items/063u1J2H1b1s1D3P3M2e/Screen%20Recording%202014-11-05%20at%2006.52%20PM.gif)
 
+#### Hit Shift+S on issues page to show the total points on that page
+
+![](http://f.cl.ly/items/3w3p1q2w3y2u0N3r0g1U/Pasted_Image_11_5_14__11_42_PM.png)
+
 ## License
 
 [MIT](http://chibicode.mit-license.org/)
