@@ -1,10 +1,10 @@
-.zh-pipeline-count.zh-scrum-points-calculated {
+.zh-pipeline-count.zh-scrum-points-calculated.zh-scrum-points-calculated.zh-scrum-points-calculated {
   background-color: #fbba00;
   display: inline-block;
   width: 2em;
   height: 2em;
   text-align: center;
   border-radius: 50%;
-  color: #1d2329 !important;
+  color: #1d2329;
   font-weight: bold;
 }
