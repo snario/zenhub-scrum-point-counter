@@ -7,7 +7,7 @@
       var sum = $(this)
         .find('.zh-issue-estimate-badge')
         .map(function() {
-          var labelName = $(this).value;
+          var labelName = $(this)[0].innerHTML;
           if ($.isNumeric(labelName)) {
             return parseFloat(labelName);
           } else {
