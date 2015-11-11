@@ -5,7 +5,7 @@
   var recalculatePoints = function() {
     $('.zh-pipeline').each(function() {
       var sum = $(this)
-        .find('.zh-issue-estimate-badge')
+        .find('.zh-issuecard-estimate-badge')
         .map(function() {
           var labelName = $(this)[0].innerHTML;
           if ($.isNumeric(labelName)) {
